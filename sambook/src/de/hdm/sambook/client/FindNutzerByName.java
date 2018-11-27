@@ -8,7 +8,7 @@ import de.hdm.sambook.shared.PinnwandAdministrationAsync;
 import de.hdm.sambook.shared.bo.Nutzer;
 
 public class FindNutzerByName extends Showcase{
-	//blabla
+	//blabla Test Test?
 	@Override
 	protected String getHeadlineText() {
 		return "Finde Nutzer anhand von Namen";
