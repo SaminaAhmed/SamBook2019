@@ -5,7 +5,7 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 
 import de.hdm.sambook.client.LoginInfo;
 
-@RemoteServiceRelativePath("login")
+@RemoteServiceRelativePath("loginservice")
 public interface LoginService extends RemoteService {
   public LoginInfo login(String requestUri);
 }

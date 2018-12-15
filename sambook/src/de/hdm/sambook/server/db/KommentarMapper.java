@@ -1,9 +1,6 @@
 package de.hdm.sambook.server.db;
 
-import de.hdm.sambook.shared.bo.Beitrag;
 import de.hdm.sambook.shared.bo.Kommentar;
-import de.hdm.sambook.shared.bo.Nutzer;
-
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;

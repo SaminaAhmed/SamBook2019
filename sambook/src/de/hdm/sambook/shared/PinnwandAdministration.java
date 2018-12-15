@@ -1,6 +1,5 @@
 package de.hdm.sambook.shared;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.Vector;
 

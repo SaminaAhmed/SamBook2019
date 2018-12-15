@@ -17,9 +17,10 @@ public void setErstellungszeitpunkt(Date erstellungszeitpunkt) {
 
 }
 
+@Override
 public int getId() {
 	// TODO Auto-generated method stub
-	return (Integer) null;
+	return getId();
 }
   
   

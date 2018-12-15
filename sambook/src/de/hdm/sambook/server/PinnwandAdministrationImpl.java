@@ -30,6 +30,7 @@ implements PinnwandAdministration{
 	private NutzerMapper nMapper = null; // 0 ist der Startpunkt
 	private PinnwandMapper pMapper = null;
 	
+	@Override
 	public void init() throws IllegalArgumentException{
 		this.aMapper = AbonnementMapper.aMapper();
 		this.bMapper = BeitragMapper.bMapper();
@@ -221,6 +222,7 @@ implements PinnwandAdministration{
 		}
 	}
 	
+	@Override
 	public Nutzer checkNutzer(String email) {
 		// TODO Auto-generated method stub
 		return null;

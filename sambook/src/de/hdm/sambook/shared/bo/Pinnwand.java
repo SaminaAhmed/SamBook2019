@@ -12,6 +12,8 @@ public class Pinnwand extends BusinessObject{
 	public int getOwnerID() {
 		return ownerID;
 	}
+	
+	
 
 	public void setOwnerID(int ownerID) {
 		this.ownerID = ownerID;

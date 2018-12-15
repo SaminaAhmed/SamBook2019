@@ -14,6 +14,7 @@
 
 		private static final long serialVersionUID = 1L;
 		
+		@Override
 		public LoginInfo login(String requestUri) {
 			UserService userService = UserServiceFactory.getUserService();
 			User user = userService.getCurrentUser();

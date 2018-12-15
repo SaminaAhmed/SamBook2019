@@ -1,8 +1,6 @@
 package de.hdm.sambook.server.db;
 
 import com.google.appengine.api.utils.SystemProperty;
-import com.google.appengine.api.utils.SystemProperty.Environment;
-import com.google.appengine.api.utils.SystemProperty.Environment.Value;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
